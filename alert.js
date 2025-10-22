@@ -1,2 +1,2 @@
-alert('WelCome to My Portfolio')
+// alert('WelCome to My Portfolio')
 
