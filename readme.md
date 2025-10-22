@@ -27,5 +27,23 @@ It highlights my work, technical skills, and ways to connect with me.
 
 ---
 
-<!-- ## 📁 Folder Structure -->
+## 📁 Folder Structure
+portfolio/
+│
+├── home.html # Main HTML file
+├── / style.css
+├── /main.js # JavaScript files 
+├── README.md # Project documentation
+├── .git ignore # images Resume
+├── /images # Images, icons, and other static files
+└──  /Resume # resume
+
+---
+
+## 🌍 Deployment
+
+This portfolio is live at:
+🔗 https://your-portfolio-link.netlify.app
+
+---
 
