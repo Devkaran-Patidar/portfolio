@@ -43,7 +43,7 @@ portfolio/
 ## 🌍 Deployment
 
 This portfolio is live at:
-🔗 https://your-portfolio-link.netlify.app
+🔗 https://devkaran-patidar.netlify.app
 
 ---
 
