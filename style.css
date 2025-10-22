@@ -1,0 +1,363 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: questrial, sans-serif; */
+   --green-color: rgb(26, 249, 26);
+    scroll-behavior: smooth;
+
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+  
+
+
+}
+body{
+    padding: 0rem 0rem;
+    background-color: rgba(0, 0, 0, 0.999);
+    color: white;
+
+    background: linear-gradient(rgb(56, 54, 54),black);
+    /* background: linear-gradient(teal,black); */
+
+
+    /* animation: reload 1s linear 0s 1  forwards; */
+    /* animation: reload 0.8s ease-in 0s 1 normal forwards; */
+
+
+}
+
+/* ================================================= */
+
+header{
+    height: 3rem;
+    /* border:2px solid red; */
+    /* width: 100vw; */
+    background-color: rgb(23, 24, 24);
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.logo{
+    display: flex;
+    gap: 0.5rem;
+
+    cursor: pointer;
+}
+.logo p{
+    color: aqua;
+}
+
+.menu{
+    cursor: pointer;
+}
+
+.dropdown a i{
+    font-size: 0.8rem;
+    color: white;
+
+}
+
+.menu:hover .dropdown{
+    display: flex;
+    /* position: relative; */
+    /* top: 5rem; */
+
+}
+
+.menu .three-bar{
+    display: none;
+}
+
+.dropdown{
+    /* width: 9rem;
+    height: 12rem;
+    position: absolute;
+    right: 0rem; */
+
+    /* border: 2px solid red; */
+    background-color:black;
+    color: white;
+    /* padding-left:1rem ; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+
+    gap:1rem;
+    /* display: none; */
+}
+    .dropdown i{
+        padding-top: 0.2rem;
+    }
+
+
+.dropdown a{
+    color: white;
+    text-decoration:none;
+    display: flex;
+    gap: 0.4rem;
+    color: aqua;
+}
+
+/* =============================== */
+/* section */
+
+.home{
+    /* border: 2px solid blue; */
+    /* height: 53rem; */
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+
+.home-img img{
+    width: 10rem;
+    /* width: 25%; */
+    border-radius: 50%;
+    filter: drop-shadow(0px 0px 10px rgba(1, 200, 250, 0.881));
+
+    cursor: pointer;
+}
+
+.home-content{
+    /* border: 2px solid white; */
+    /* width: 90%; */
+    /* width: 30rem; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 0.5rem;
+}
+.heading{
+    font-size: 1.4rem;
+}
+.home-content p{
+    /* width: 50%; */
+    width: 25rem;
+    /* background-color: aqua; */
+}
+
+.home-content h4 {
+    font-size: 1.8rem;
+    /* color: rgb(54, 235, 175); */
+    /* text-shadow: 1px 1px px rgb(173, 173, 170); */
+
+    background :linear-gradient(rgb(32, 246, 189) ,rgb(22, 183, 242));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.social-acc{
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    padding: 0.8rem 0rem ;
+
+}
+
+
+.social-acc a{
+    /* border: 1px solid white; */
+    /* color: #2f3cf0; */
+    color: white;
+    /* background-color: rgb(27, 156, 242); */
+    border: none;
+    border-style:none ;
+    /* overflow: hidden; */
+
+
+    padding: 0.3rem;
+    border-radius: 2rem;
+    cursor: pointer;
+
+}
+
+.social-acc a i{
+    /* filter: drop-shadow(0px 0px 3px rgba(65, 63, 66, 0.736)); */
+    /* border: 1px solid rgb(107, 114, 235); */
+    padding: 0.3rem;
+    border-radius: 5rem;
+}
+
+.social-acc a:hover i{
+    transform: scale(1.6);
+    /* color: rgb(203, 209, 210); */
+    border: none;
+    /* box-shadow: 0px 0px 5px 1px red; */
+    /* filter: drop-shadow(0px 0px 5px rgb(245, 44, 17)); */
+
+}
+
+.resume{
+    /* background-color: rgb(49, 228, 49); */
+    width: fit-content;
+
+}
+
+.resume a button{
+    background-color: var(--green-color);
+    border-style:none ;
+    border-radius: 5rem;
+    padding: 0.3rem 1.5rem;
+
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* ============================================== */
+.info{
+    margin-top: 2rem;
+    /* display: flex; */
+    margin-bottom: 3rem;
+    
+}
+.info p {
+    /* padding-left: 1.2rem; */
+    width: fit-content;
+    /* background-color: #2f3cf0; */
+
+}
+.info a{
+    /* margin-top: 0.3rem; */
+    /* padding: 0.5rem 2rem; */
+    /* border-radius: 9rem; */
+    /* border-style:none; */
+    /* background-color: var(--green-color); */
+    text-decoration: none;
+    color: blue;
+    /* background-color: rgb(147, 143, 139); */
+    margin-top: -1rem;
+    cursor: pointer;
+}
+
+/* ================================================== */
+
+footer p{
+    /* max-width: 100vh; */
+    text-align: center;
+    height: 3rem;
+    /* margin-top: -2rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .copyright{
+    color: blue;
+} */
+
+/* ancor tag  */
+/* 
+a:visited{
+    color: aqua;
+    background-color: blueviolet;
+} */
+
+
+
+/*================== media queryes ================*/
+
+@media screen and (max-width:425px) {
+
+    .logo-content{
+        display: none;
+        /* margin: 0px 9rem; */
+        /* width: 70%;         */
+
+    }
+    .home{
+        margin-top: 3rem;
+
+        margin-bottom: 5rem;
+    }
+
+    .home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+
+        padding-left: 1rem;
+    }
+    body{
+        padding: 0px;
+        
+    }
+    .home-content p{
+        width: 90%;
+    }
+}
+   
+
+@media screen and (max-width:768px){
+    .home {
+        margin-top: 5rem;
+        margin-bottom: 10rem;
+    }
+    .menu .three-bar{
+    display: flex;
+}
+
+.dropdown{
+    width: 8rem;
+    height: 15rem;
+    position: absolute;
+    right: 0rem;
+
+    /* border: 2px solid red; */
+    background-color:black;
+    color: white;
+    padding-left:1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    gap:1rem;
+    display: none;
+}
+   .menu:hover .dropdown{
+    display: flex;
+    /* position: relative; */
+    /* top: 5rem; */
+
+} 
+   
+
+}
+    
+
+/* --------------------------------------- */
+
+/* Animation */
+
+@keyframes reload {
+    from{
+        opacity: 0;
+        transform:scale(0);
+        /* background-color: #2f3cf0; */
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+        /* background-color: yellow; */
+    }
+}

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.certificate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 2rem;
+
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.cert{
+    font-size:1.3rem;
+    color: aqua;
+}
+
+.certificate div{
+    border-radius: 2rem;
+    height: fit-content;
+    width: 70%;
+    /* border: 1px solid white; */
+    box-shadow: 0px 0px 5px 0px rgb(9, 216, 161);
+    /* height: 6rem; */
+    overflow: hidden;
+
+
+}
+
+.certificate img {
+    width: 100%;
+}
+
+
+
+@media screen and (max-width:768px){
+    .certificate div{
+        width: 95%;
+    }
+
+    .certificate{
+        /* margin-top: 5rem; */
+        margin-bottom: 9rem;
+    }
+}

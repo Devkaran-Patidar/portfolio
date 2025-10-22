@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.about{
+
+    /* max-width: 30rem; */
+    /* border: 2px dashed red; */
+    /* height: 67rem; */
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 4rem;
+     font-family: "Open Sans", sans-serif;
+
+    margin-bottom: 3rem;
+
+}
+.me{
+    font-size: 1.5rem;
+    color: aqua;
+}
+.about p{
+    max-width: 31rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: start;
+}
+
+.name{
+    font-size: 1.3rem;
+    color: aquamarine;
+}
+
+.bold{
+    font-size: 1.2rem;
+    /* text-decoration: underline; */
+    /* text-decoration: #dcf42493 underline ; */
+    /* color: rgb(42, 21, 230); */
+}
+
+.frontend{
+    font-size: 1.3rem;
+    color: aqua;
+}
+
+.hy:hover {
+    cursor: pointer;
+    background-color: rgb(97, 232, 94);
+}
+
+
+@media screen and (max-width:425px){
+    .about{
+        padding: 0.1rem 1rem;
+    }
+}
+
+
+
