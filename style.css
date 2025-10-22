@@ -63,6 +63,7 @@ header{
 
 }
 
+
 .menu:hover .dropdown{
     display: flex;
     /* position: relative; */
@@ -81,9 +82,9 @@ header{
     right: 0rem; */
 
     /* border: 2px solid red; */
-    background-color:black;
+    /* background-color:black; */
     color: white;
-    /* padding-left:1rem ; */
+    padding-left:1rem ;
     display: flex;
     /* flex-direction: column; */
     justify-content: center;
