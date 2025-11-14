@@ -27,10 +27,14 @@ body{
 
 }
 
+main{
+    min-height: 86vh;
+}
+
 /* ================================================= */
 
 header{
-    height: 3rem;
+    height: 8vh;
     /* border:2px solid red; */
     /* width: 100vw; */
     background-color: rgb(23, 24, 24);
@@ -89,7 +93,7 @@ header{
     justify-content: center;
     align-items: center;
 
-    gap:1rem;
+    gap:1.5rem;
 }
     .dropdown i{
         padding-top: 0.2rem;
@@ -250,14 +254,15 @@ header{
 
 /* ================================================== */
 
-footer p{
+footer{
     /* max-width: 100vh; */
-    text-align: center;
-    height: 3rem;
+    /* text-align: center; */
+    height: 6vh;
     /* margin-top: -2rem; */
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-color: aqua; */
 }
 /* .copyright{
     color: blue;

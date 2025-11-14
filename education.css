@@ -12,6 +12,10 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
+
+    /* background-color: #608E7A */
+;
+    /* background:linear-gradient(grey,black); */
 }
 
 .edu{
@@ -24,6 +28,7 @@
     border-radius: 1rem;
     /* height: 10rem; */
     /* border: 2px solid white; */
+    background-color: rgb(50, 53, 51);
     box-shadow: 0px 0px 10px -5px white;
     padding: 1rem 0rem;
     display: flex;
